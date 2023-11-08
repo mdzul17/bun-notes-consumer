@@ -1,0 +1,20 @@
+{
+  "name": "consumer",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^6.4.14",
+    "@types/pg": "^8.10.9",
+    "amqplib": "^0.10.3",
+    "nodemailer": "^6.9.7"
+  }
+}
